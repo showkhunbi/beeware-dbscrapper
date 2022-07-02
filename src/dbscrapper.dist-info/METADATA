@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.3
+Name: dbscrapper
+Formal-Name: DB Scrapper
+App-ID: com.delaniblog.dbscrapper.dbscrapper
+Version: 0.0.1
+Home-page: https://dbscrapper.delaniblog.com/dbscrapper
+Author: Johnson Cooper
+Author-email: maximusjshokes@gmail.com
+Summary: Web Scrapping App for www.delaniblog.com

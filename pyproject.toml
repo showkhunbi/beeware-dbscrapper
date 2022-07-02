@@ -1,0 +1,49 @@
+[tool.briefcase]
+project_name = "DB Scrapper"
+bundle = "com.delaniblog.dbscrapper"
+version = "0.0.1"
+url = "https://dbscrapper.delaniblog.com/dbscrapper"
+license = "BSD license"
+author = 'Johnson Cooper'
+author_email = "maximusjshokes@gmail.com"
+
+[tool.briefcase.app.dbscrapper]
+formal_name = "DB Scrapper"
+description = "Web Scrapping App for www.delaniblog.com"
+icon = "src/dbscrapper/resources/dbscrapper"
+sources = ['src/dbscrapper']
+requires = []
+
+
+[tool.briefcase.app.dbscrapper.macOS]
+requires = [
+    'toga-cocoa>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.dbscrapper.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev20',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+]
+
+[tool.briefcase.app.dbscrapper.windows]
+requires = [
+    'toga-winforms>=0.3.0.dev20',
+]
+
+# Mobile deployments
+[tool.briefcase.app.dbscrapper.iOS]
+requires = [
+    'toga-iOS>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.dbscrapper.android]
+requires = [
+    'toga-android>=0.3.0.dev20',
+]
